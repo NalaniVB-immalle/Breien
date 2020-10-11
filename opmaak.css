@@ -1,15 +1,14 @@
 body {
-    background-color: seashell;
-    width: 100px;
+    background-color: rgb(68, 170, 196);
+    width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
 header {    
-    padding: 0px 0px 70px 0px; /* shorthand voor top, right, bottom, left */
+    padding: 15px 15px 70px 15px; /* shorthand voor top, right, bottom, left */
     background-color: white;
     border-radius: 15px;
 }
-
 #hobbyWebsiteLogo
 {
     float:left;
@@ -22,6 +21,27 @@ nav {
 nav a {
     text-decoration:none;
     padding:0px 20px 0px 20px;
-    color:C9E3F4;
+    color:white;
+}
+section{
+    margin-top:20px;
+    border-radius: 15px;
+    background-color: white;
+}
+aside{
+    border: 15px solid pink;
+    width: 20%;
+    float: right;
+    min-height: 550px;
     background-color: pink;
+}
+
+article{
+    float: left;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+}
+h1{
+    text-align: justify;
 }
